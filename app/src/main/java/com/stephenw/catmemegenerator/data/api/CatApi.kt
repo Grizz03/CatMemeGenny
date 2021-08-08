@@ -8,13 +8,13 @@ import retrofit2.http.Query
 interface CatApi {
 
     @GET("cat")
-    suspend fun getCatImage(
+    suspend fun getImage(
         @Query("filter") filter: String?,
         @Query("json") json: Boolean = true,
     ): Response<Cats>
 
     @GET("cat/gif")
-    suspend fun getCatGif(
+    suspend fun getGif(
         @Query("filter") filter: String?,
         @Query("json") json: Boolean = true,
     ): Response<Cats>
