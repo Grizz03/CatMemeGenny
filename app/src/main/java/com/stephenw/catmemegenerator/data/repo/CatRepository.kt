@@ -4,7 +4,6 @@ package com.stephenw.catmemegenerator.data.repo
 import com.stephenw.catmemegenerator.Utils.Resource
 import com.stephenw.catmemegenerator.data.api.ApiManager
 import com.stephenw.catmemegenerator.data.model.Cats
-import java.lang.Exception
 import javax.inject.Inject
 
 class CatRepository @Inject constructor(

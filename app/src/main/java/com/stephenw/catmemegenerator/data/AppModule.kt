@@ -17,9 +17,9 @@ object AppModule {
     @Singleton
     @Provides
     fun provideCatApi(): CatApi = Retrofit.Builder()
-            .baseUrl(BASE_URL)
-            .addConverterFactory(MoshiConverterFactory.create())
-            .build()
-            .create(CatApi::class.java)
+        .baseUrl(BASE_URL)
+        .addConverterFactory(MoshiConverterFactory.create())
+        .build()
+        .create(CatApi::class.java)
 
 }

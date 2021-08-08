@@ -1,8 +1,7 @@
 package com.stephenw.catmemegenerator.ui
 
-import android.util.Log
 import androidx.lifecycle.*
-import com.bumptech.glide.load.engine.Resource
+import com.stephenw.catmemegenerator.Utils.Resource
 import com.stephenw.catmemegenerator.data.model.Cats
 import com.stephenw.catmemegenerator.data.repo.CatRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
