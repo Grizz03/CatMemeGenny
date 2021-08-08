@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/14254/AndroidStudioProjects/CatMemeGenerator/app/src/main/res/layout/activity_main.xml" value="0.22780797101449277" />
-        <entry key="..\:/Users/14254/AndroidStudioProjects/CatMemeGenerator/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/14254/AndroidStudioProjects/CatMemeGenerator/app/src/main/res/layout/dropdown.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/14254/AndroidStudioProjects/CatMemeGenerator/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/14254/AndroidStudioProjects/CatMemeGenerator/app/src/main/res/layout/fragment_image_view.xml" value="0.22780797101449277" />
       </map>
     </option>
