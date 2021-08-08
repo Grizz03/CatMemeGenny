@@ -1,4 +1,4 @@
-package com.stephenw.catmemegenerator.data
+package com.stephenw.catmemegenerator.data.model
 
 import com.squareup.moshi.JsonClass
 
