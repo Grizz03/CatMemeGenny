@@ -1,5 +1,22 @@
 <resources>
-    <string name="app_name">CatMemeGenerator</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blur">Blur</string>
+    <string name="mono">Mono</string>
+    <string name="sepia">Sepia</string>
+    <string name="negative">Negative</string>
+    <string name="paint">Paint</string>
+    <string name="pixel">Pixel</string>
+    <string name="image">Image</string>
+    <string name="gif">Gif</string>
+    <string-array name="filter_menu">
+        <item>@string/blur</item>
+        <item>@string/mono</item>
+        <item>@string/sepia</item>
+        <item>@string/negative</item>
+        <item>@string/paint</item>
+        <item>@string/pixel</item>
+    </string-array>
+    <string-array name="image_menu">
+        <item>@string/image</item>
+        <item>@string/gif</item>
+    </string-array>
 </resources>
