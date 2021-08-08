@@ -8,12 +8,12 @@ class ApiManager @Inject constructor(
     private val service: CatApi
 ) {
 
-    suspend fun getImage(filter: String?): Response<Cats> {
-        return service.getCatImage(filter)
+    suspend fun getCatImage(filter: String?): Response<Cats> {
+        return service.getImage(filter)
     }
 
-    suspend fun getGif(filter: String?): Response<Cats> {
-        return service.getCatGif(filter)
+    suspend fun getCatGif(filter: String?): Response<Cats> {
+        return service.getGif(filter)
     }
 
 }
